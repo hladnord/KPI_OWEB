@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#container-float{
+    background-color: pink;
+    min-height:100vh;
+    height: 100vh;
+}
+
+#container-flex{
+    margin: 10px 0;
+    background-color: pink;
+    min-height:100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-float{
+    width: 70%;
+    height: 12.5%;
+    float: right;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#header-flex{
+    height: 12.5%;
+    flex: 70%;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+#main-flex{
+    display: flex;
+    flex: 70%;
+    flex-wrap: wrap;
+}
+
+#menu-float{
+    width: 30%;
+    height: 87.5%;
+    float: left;
+    background-color: #AFE2AF;
+}
+
+#menu-flex{
+    height: 87.5%;
+    flex: 30%;
+    background-color: #AFE2AF;
+}
+
+#content-float{
+    width: 70%;
+    height: 75%;
+    float: right;
+    background-color: #F9FE97;
+}
+
+#content-flex{
+    height: 87.5%;
+    flex: 70%;
+    flex-direction: row;
+    background-color: #F9FE97;
+}
+
+#footer-float{
+    width: 70%;
+    height: 12.5%;
+    float: left;
+    background-color: #FFD184;
+    text-align: justify;
+    padding: 10px;
+}
+
+#footer-flex{
+    height: 12.5%;
+    flex: 70%;
+    background-color: #FFD184;
+    text-align: justify;
+    padding: 10px;
+}
+
+#footer-ad-float{
+    width: 30%;
+    height: 12.5%;
+    float: right;
+    background-color: #C1B0CA;
+}
+
+#footer-ad-flex{
+    height: 12.5%;
+    flex: 30%;
+    background-color: #C1B0CA;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flag{
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.info{
+    text-align: justify;
+    padding: 10px;
+}
