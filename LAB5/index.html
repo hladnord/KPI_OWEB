@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Лабораторна робота №5">
+    <meta name="keywords" content="ІО-92, Гладков, Даніїл">
+    <meta name="author" content="Гладков Даніїл">
+    <title>Гладков Д.В. ІО-92</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-section">
+        <div id="form-input">
+            <form method="POST">
+                <h3>Form to fill</h3><br>
+                <input type="text" name="FullName" id="FullName" placeholder="full name" onchange="FullNameCase()">
+                <p class="info1"></p><br>
+                <input type="text" name="Group" id="Group" placeholder="group" onchange="GroupCase()">
+                <p class="info2"></p><br>
+                <input type="text" name="PhoneNumber" id="PhoneNumber" placeholder="phone number" onchange="PhoneNumberCase()">
+                <p class="info3"></p><br>
+                <input type="text" name="Address" id="Address" placeholder="address" onchange="AddressCase()">
+                <p class="info4"></p><br>
+                <input type="text" name="Email" id="Email" placeholder="email" onchange="EmailCase()">
+                <p class="info5"></p><br>
+                <input type="button" name="Submit" id="Submit" onClick="FormData()" value="Submit" >
+            </form>
+        </div>
+        <div id="form-output">
+            <h3>The result</h3><br>
+            <div id='ValidFullName'> </div><br>
+            <div id='ValidGroup'> </div><br>
+            <div id='ValidPhoneNumber'> </div><br>
+            <div id='ValidAddress'> </div><br>
+            <div id='ValidEmail'> </div><br>
+        </div>
+    </div>
+    <div id="table-section">
+        <h3>Table</h3><br>
+        <input type="color" id="colorSelected">
+        <br>
+        <table>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th id="cell8">8</th>
+                <th>9</th>
+                <th id="cell10">10</th>
+                <th>11</th>
+                <th id="cell12">12</th>
+            </tr>
+            <tr>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+            </tr>
+            <tr>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+            </tr>
+            <tr>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+            </tr>
+            <tr>
+                <th>31</th>
+                <th>32</th>
+                <th>33</th>
+                <th>34</th>
+                <th>35</th>
+                <th>36</th>
+            </tr>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
